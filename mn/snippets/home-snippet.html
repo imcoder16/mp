@@ -1,0 +1,22 @@
+    <div class="jumbotron">
+      <img src="images/jumbotron_768.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">
+    </div>
+
+    <div id="home-tiles" class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="#" onclick="$dc.loadMenuCategories();"><div id="menu-tile"><span>menu</span></div></a>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="#" onclick="$dc.loadMenuItems({{randomCategoryShortName}});">
+          <div id="specials-tile"><span>specials</span></div>
+        </a>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <a href="https://goo.gl/maps/MPiDCduakScvTCM6A" target="_blank">
+          <div id="map-tile">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7463.590332375324!2d77.01525812462337!3d20.718540794668776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd72e228ec20215%3A0x39d05108a6187ff4!2sJatharpeth%2C%20Akola%2C%20Maharashtra%20444005!5e0!3m2!1sen!2sin!4v1606317538020!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen></iframe>
+            <span>map</span>
+          </div>
+        </a>
+      </div>
+    </div><!-- End of #home-tiles -->
